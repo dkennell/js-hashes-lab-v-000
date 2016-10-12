@@ -9,6 +9,7 @@ describe('addIngredient', function() {
 
   it('adds an ingredient to the recipe and returns the updated recipe', function() {
     var chocolateRecipe = {chocolate: "16 oz"}
+    debugger;
     expect(addIngredient(recipe, "chocolate", "16 oz")).toEqual(chocolateRecipe);
   });
 
@@ -68,4 +69,3 @@ describe('readRecipe', function() {
   });
 
 });
-
